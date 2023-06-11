@@ -1,0 +1,8 @@
+Git
+
+Download source from github to local machine
+    cd git_project folder
+    git clone https://github.com/triminhnt/cozastore_java21.git
+
+
+
