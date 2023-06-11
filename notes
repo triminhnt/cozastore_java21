@@ -33,6 +33,19 @@ Day source tu local machine len github
 
     Vao thu muc cozastore_java21 , tao file an .gitignore
 
+    git branch : kiem tra nhanh
+
+    git checkout -b feature/mapping_entity : Tao nhanh feature moi
+
+    git checkout ten_nhanh : Chuyen doi qua lai giua cac nhanh
+
+    git push origin feature/mapping_entity
+
+    token : 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
+
+
+
+    
 
 
 
