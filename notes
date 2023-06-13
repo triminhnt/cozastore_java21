@@ -39,6 +39,8 @@ Day source tu local machine len github
 
     git checkout ten_nhanh : Chuyen doi qua lai giua cac nhanh
 
+    git branch -D ten_nhanh : Xoa nhanh local
+
     git push origin feature/mapping_entity
 
     token : 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
