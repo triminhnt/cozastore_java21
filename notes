@@ -1,0 +1,59 @@
+Git
+
+Download source from github to local machine
+    cd git_project folder
+    git clone https://github.com/triminhnt/cozastore_java21.git
+
+
+    cd cozastore_java21
+
+Day source tu local machine len github
+
+    git status : Giup kiem tra nhung thay doi cua source local machine voi GitHub
+
+    git add : Them cac file da duoc thay thoi vao hang doi
+      - url_file : chi dinh file duoc dua vao hang doi
+      - * : Them tat ca cac file da duoc thay doi vao hang doi, ngoai tru file an
+      - . : Them tat ca cac file da duoc thay doi vao hang doi, bao gom file an
+
+    git commit -m "first commit" : Commit cac file trong hang doi
+
+
+    Tao token tren github : Username - Settings - Developer Settings -
+        Personal Access Tokens - Tokens - Generate new token
+    Token : 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
+
+
+   Vao thu mua cozastore_java21 - Nhan command + shift + . : de mo file an
+    Open .git - Edit config file
+
+    url = https://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@github.com/triminhnt/cozastore_java21.git
+
+    git push origin :
+
+    Vao thu muc cozastore_java21 , tao file an .gitignore
+
+    git branch : kiem tra nhanh
+
+    git checkout -b feature/mapping_entity : Tao nhanh feature moi
+
+    git checkout ten_nhanh : Chuyen doi qua lai giua cac nhanh
+
+    git push origin feature/mapping_entity
+
+    token : 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
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
