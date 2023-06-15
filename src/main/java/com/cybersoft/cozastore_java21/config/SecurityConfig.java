@@ -46,7 +46,7 @@ public class SecurityConfig {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS) // Khai bao khong su dung session trong project
                 .and()
                 .authorizeHttpRequests()
-                    .antMatchers("/signin","/signup").permitAll()
+                    .antMatchers("/signin","/signup","/demo/**").permitAll()
                     .antMatchers("/admin").hasRole("ADMIN") // hasRole : phai co quyen moi vao duoc
                     .antMatchers("/admin/save").hasAnyRole("ADMIN", "SAVE")
                     .antMatchers("/admin/delete").hasRole("DELETE")
